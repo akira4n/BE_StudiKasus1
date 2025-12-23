@@ -41,6 +41,8 @@ if ($method === 'GET') {
         $pdo->prepare("INSERT INTO bookings (user_id, event_id, status) VALUES (?, ?, 'paid')")->execute([$user_id, $event_id]);
 
         $pdo->commit();
+
+        http_response_code(201);
         echo json_encode(["message" => "Tiket berhasil di pesan"]);
     } catch (Exception $e) {
         $pdo->rollBack();

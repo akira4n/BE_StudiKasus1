@@ -15,5 +15,6 @@ if ($method === 'GET') {
     $stmt = $pdo->prepare("INSERT INTO events (title, total_capacity, remaining_stock) VALUES (?, ?, ?)");
     $stmt->execute([$input['title'], $input['capacity'], $input['capacity']]);
 
+    http_response_code(201);
     echo json_encode(["message" => "Event berhasil dibuat"]);
 }
