@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/akira4n/BE_StudiKasus1.git
-cd startup-ticketing
+cd BE_StudiKasus1
 ```
 
 ### 2. Setup Database
