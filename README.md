@@ -22,6 +22,11 @@ cd startup-ticketing
 php -S localhost:8000 -t public
 ```
 
+## **📋 Requirements**
+
+- PHP 8.x
+- MySQL / MariaDB
+
 ## **📑 Dokumentasi API**
 
 ### **1. Tambah data user**
