@@ -27,7 +27,7 @@ php -S localhost:8000 -t public
 ### **1. Tambah data user**
 
 ```http
-POST /api/users - Mendaftarkan user baru.
+POST /api/users
 ```
 
 **Request Body:**
