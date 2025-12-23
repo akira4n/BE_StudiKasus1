@@ -92,7 +92,7 @@ POST /api/events
 ### **4. Ambil semua data event**
 
 ```http
-GET api/events
+GET /api/events
 ```
 
 **Response:**
@@ -112,7 +112,7 @@ GET api/events
 ### **5. Tambah data booking**
 
 ```http
-POST api/bookings
+POST /api/bookings
 ```
 
 **Request Body:**
@@ -135,7 +135,7 @@ POST api/bookings
 ### **6. Ambil semua data booking**
 
 ```http
-GET api/bookings
+GET /api/bookings
 ```
 
 **Response:**
