@@ -156,3 +156,26 @@ GET /api/bookings
   }
 ]
 ```
+
+### **7. Ganti status booking/tiket**
+
+```http
+PATCH /api/bookings
+```
+
+**Request Body:**
+
+```json
+{
+  "id": 1,
+  "status": "cancelled"
+}
+```
+
+**Response:**
+
+```json
+{
+  "message": "Status booking berhasil diperbarui!"
+}
+```
