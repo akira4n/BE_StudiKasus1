@@ -10,7 +10,7 @@ cd BE_StudiKasus1
 ### 2. Setup Database
 
 - Buat database MySQL baru bernama startup_ticketing.
-- Import file [`db_ticketing.sql`](db.sql) ke dalam database tersebut.
+- Import file [`db.sql`](db.sql) ke dalam database tersebut.
 
 ### 3. Konfigurasi Database
 
